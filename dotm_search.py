@@ -6,6 +6,8 @@ Given a directory path, search all files in the path for a given text string
 within the 'word/document.xml' section of a MSWord .dotm file.
 """
 __author__ = "DavidRinSE"
+# Detrich assisted with research
+
 from zipfile import ZipFile
 import argparse
 import sys
